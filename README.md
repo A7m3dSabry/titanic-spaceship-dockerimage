@@ -16,9 +16,9 @@ pull the container using
 ### run container
 
   * train a model
-    `sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:/{MountFolderPath}'  -c 'python3 /app/train.py {MountFolderPath}/{TrainCsvFile}'`
+     `sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:/{MountFolderPath}'  -c 'python3 /app/train.py {MountFolderPath}/{TrainCsvFile}'`
   * test the model
-    `'sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:/{MountFolderPath}'  -c 'python3 /app/test.py {MountFolderPath}/{TrainCsvFile}'`
+     `'sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:/{MountFolderPath}'  -c 'python3 /app/test.py {MountFolderPath}/{TrainCsvFile}'`
 
 ### the output ?
 after training or testing you will find `train.txt` or `test.txt` on the mounted folder specified in the run command
