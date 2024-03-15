@@ -17,11 +17,11 @@ pull the container using
 
   * train a model
     ```
-    sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:/{MountFolderPath}'  -c 'python3 /app/train.py {MountFolderPath}/{TrainCsvFile}'
+    sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:{DockerMountPath}'  -c 'python3 /app/train.py {MountFolderPath}/{TrainCsvFile}'
     ```
   * test the model
     ```
-    sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:/{MountFolderPath}'  -c 'python3 /app/test.py {MountFolderPath}/{TrainCsvFile}'
+    sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:{DockerMountPath}'  -c 'python3 /app/test.py {MountFolderPath}/{TrainCsvFile}'
     ```
 
 ### the output ?
