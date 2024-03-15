@@ -15,11 +15,11 @@ pull the container using
 
 ### run container
 
-* train a model
-  '''
-  sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:/{MountFolderPath}'  -c 'python3 /app/train.py {MountFolderPath}/{TrainCsvFile}'
-  '''
-* test the model
-  '''
-  'sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:/{MountFolderPath}'  -c 'python3 /app/test.py {MountFolderPath}/{TrainCsvFile}'
-  '''
+  * train a model
+    ```
+    sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:/{MountFolderPath}'  -c 'python3 /app/train.py {MountFolderPath}/{TrainCsvFile}'
+    ```
+  * test the model
+    ```
+    'sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:/{MountFolderPath}'  -c 'python3 /app/test.py {MountFolderPath}/{TrainCsvFile}'
+    ```
