@@ -1,6 +1,6 @@
 # Titanic Spaceship Model
 ## Description
-This repo has a model used to solve famous kaggle competition (Titanc Spaceship")https://www.kaggle.com/competitions/spaceship-titanic]
+This repo has a model used to solve famous kaggle competition (Titanc Spaceship)https://www.kaggle.com/competitions/spaceship-titanic]
 the model also containd in a docker image published on (docker hub)[https://hub.docker.com/r/a7m3dsabry/titanic_task]
 
 
