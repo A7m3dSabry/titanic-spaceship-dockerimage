@@ -11,7 +11,9 @@ you can follow their [documentation](https://docs.docker.com/get-docker/) it's p
 ### pulling the container
 
 pull the container using
-```docker pull a7m3dsabry/titanic_task```
+```
+sudo docker pull a7m3dsabry/titanic_task
+```
 
 ### run container
 
