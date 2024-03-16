@@ -19,11 +19,11 @@ sudo docker pull a7m3dsabry/titanic_task
 
   * train a model
     ```
-    sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:{DockerMountPath}'  -c 'python3 /app/train.py {DockerMountPath}/{TrainCsvFile}'
+    sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:{DockerMountPath}'  -c 'python3 /app/train.py {DockerMountPath}/{TestCSVFile}'
     ```
   * test the model
     ```
-    sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:{DockerMountPath}'  -c 'python3 /app/test.py {DockerMountPath}/{TrainCsvFile}'
+    sudo docker run -it --entrypoint /bin/sh test -v {HostFolderPath}:{DockerMountPath}'  -c 'python3 /app/test.py {DockerMountPath}/{TestCSVFile}'
     ```
 
 ### the output ?
